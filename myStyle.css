@@ -1,0 +1,455 @@
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Escoredream';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BonmyeongjoSourceHanSerif';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(175, 175, 175);
+    
+}
+
+#container{
+    margin: 0 auto;
+    display: flex;    
+}
+
+
+#mainContents{
+    width: 100%;
+}
+
+.box1{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.row{
+    width: 100%;
+    display:flex;
+}
+
+
+
+.section0 {
+   width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.section1 {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.section2 {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.section3 {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.img0 { background-image: url("img/back1.png");  }
+.img1 { background-image: url("img/back6.png"); }
+.img2 { background-image: url("img/back5.png"); }
+.img3 { background-image: url("img/back4.png"); }
+
+.imgSize{
+    width:100%;
+    max-height: 100vh; 
+    object-fit: contain;
+}
+
+.imgSizeBox{
+    width:100%;
+    height: 100vh;
+}
+
+
+
+
+.box{
+    
+    width: 100%;
+    padding: 1.5px;
+    background-color: black;
+    display: flex;         
+    align-items: center;    
+    justify-content: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    list-style: none;
+}
+
+
+.col1{width: 8.3%; padding:0.2rem;}
+.col2{width: 16.6%; padding: 0.2rem;}
+.col3{width: 24.9%; padding: 0.2rem;}
+.col4{width: 33.2%; padding: 0.2rem;}
+.col5{width: 41.5%; padding: 0.2rem;}
+.col6{width: 49.8%; padding: 0.2rem;}
+.col7{width: 58.1%; padding: 0.2rem;}
+.col8{width: 66.4%; padding: 0.2rem;}
+.col9{width: 74.7%; padding: 0.2rem;}
+.col10{width: 83%; padding: 0.2rem;}
+.col11{width: 91.3%; padding: 0.2rem;}
+.col12{width: 100%; padding: 0.2rem;}
+
+.h-10{height:10px;}
+.h-20{height:20px;}
+.h-30{height:30px;}
+.h-40{height:40px;}
+.h-50{height:50px;}
+.h-60{height:60px;}
+.h-80{height:80px;}
+.h-100{height:100px;}
+.h-150{height:150px;}
+.h-200{height:200px;}
+.h-300{height:300px;}
+
+
+.text-title{
+    font-family: 'Escoredream';
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.text-sub2{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 2.1rem;
+}
+
+.text-sub3{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+
+.text-sub4{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white;
+}
+
+
+.text{
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+
+
+
+@media(max-width:768px){
+
+
+    
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(175, 175, 175);
+    
+}
+
+#container{
+    margin: 0 auto;
+    display: flex;    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    opacity: 0;
+    transform: translateY(80px);
+}
+
+#mainContents{
+    width: 100%;
+}
+
+.box1{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.row{
+    width: 100%;
+    display:flex;
+}
+
+
+.box{
+    
+    width: 130%;
+    padding: 1.5px;
+    background-color: black;
+    display: flex;         
+    align-items: center;    
+    justify-content: left;
+}
+
+
+
+
+.section0 {
+   width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.section1 {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.section2 {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.section3 {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(80px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.img0 { background-image: url("img/mo1.png");  width:100%;  }
+.img1 { background-image: url("img/mo4.png");  width:100%; }
+.img2 { background-image: url("img/mo2.png");  width:100%;}
+.img3 { background-image: url("img/mo3.png");   width:100%;}
+
+.imgSize{
+    width:100%;
+    max-height: 100vh; 
+    object-fit: contain;
+}
+
+.imgSizeBox{
+    width:100%;
+    height: 100vh;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    list-style: none;
+}
+
+
+.col1{width: 0%; padding:0.2rem;}
+.col2{width: 16.6%; padding: 0.2rem;}
+.col3{width: 24.9%; padding: 0.2rem;}
+.col4{width: 33.2%; padding: 0.2rem;}
+.col5{width: 100%; padding: 0.2rem;}
+.col6{width: 100%; padding: 0.2rem;}
+.col7{width: 58.1%; padding: 0.2rem;}
+.col8{width: 100%; padding: 0.2rem;}
+.col9{width: 74.7%; padding: 0.2rem;}
+.col10{width: 83%; padding: 0.2rem;}
+.col11{width: 91.3%; padding: 0.2rem;}
+.col12{width: 100%; padding: 0.2rem;}
+
+.h-10{height:10px;}
+.h-20{height:12px;}
+.h-30{height:12px;}
+.h-40{height:40px;}
+.h-50{height:20px;}
+.h-60{height:60px;}
+.h-80{height:80px;}
+.h-100{height:380px;}
+.h-150{height:150px;}
+.h-200{height:200px;}
+.h-300{height:0px;}
+
+
+.text-title{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.text-sub2{
+    font-family: 'Escoredream';
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.text-sub3{
+    font-family: 'Escoredream';
+    font-weight: 500;
+    font-size: 1.85rem;
+     color: white;
+}
+
+
+.text-sub4{
+    font-family: 'Escoredream';
+    font-weight: 400;
+    font-size: 0.65rem;
+    color: white;
+}
+
+
+.text{
+    font-family: 'Escoredream';
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.none{display: none;}
+ 
+
+    .img0,
+    .img1,
+    .img2,
+    .img3 {
+        background-size: contain;
+        background-position: center top;
+    }
+
+
+  
+
+
+
+}
+
+
