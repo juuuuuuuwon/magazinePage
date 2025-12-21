@@ -13,7 +13,7 @@ function init(){
     document.body.style.height = totalScrollHeight + 'px';
 
     pages.forEach((page, i) => {
-        page.style.zIndex = pages.length + i;
+        page.style.zIndex = pages.length - i;
     });
 
     window.addEventListener('scroll', onScroll);
@@ -25,18 +25,23 @@ function onScroll(){
     currentPage = Math.floor(scrollY / pageHeight);
 
     pages.forEach((page, i) => {
-        if(i === currentPage){
+        if (i === currentPage) {
             page.style.opacity = 1;
             page.style.transform = 'translateY(0)';
             page.style.transition = 'all 1s ease';
-        }else{
+            page.style.pointerEvents = 'auto';   // ✅ 클릭 허용
+        } else {
             page.style.opacity = 0;
             page.style.transform = 'translateY(80px)';
+            page.style.pointerEvents = 'none';   // ❌ 클릭 차단
         }
     });
 }
 
 init();
+
+
+
 
 
 
